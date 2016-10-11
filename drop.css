@@ -1,0 +1,111 @@
+.dd {
+  
+  background-color: lightBlue;
+  color:blue;
+  width:100px;
+}
+
+div.placeholder { 
+  width:100px;
+  background: rgb(255,240,120);}
+div.placeholder:before {
+  content: "Drop here"; color: rgb(225,210,90);
+}
+#aa{
+  position: absolute;
+  padding:30px;
+}
+#kk{
+  position:absolute;
+  color:red;
+  
+}
+.squares_0{
+    width: 70px;
+    height: 20px;
+    /*background-color: #eee;*/
+    background-color: rgba(220,220,220,0.8);
+    float: left;
+    left: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+.region_fixed{
+  position: fixed;
+  text-align: center;
+  background:-webkit-linear-gradient(270deg, #F6C9F0, #E14CCF,#A94CE1);
+  background-size: 100% 100%;
+}
+.squares{
+    width: 70px;
+    height: 50px;
+    background-color: rgba(220,220,220,0.8);
+    float: left;
+    left: 30px;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+.squares_1{
+  width: 2px;
+    height: 2px;
+    background-color: rgba(255,255,255,0);
+    margin-left: 30px;
+    clear:left;
+}
+.map{
+  width: 3200px;
+  height: 3400px;
+  /*background: url(http://52.36.79.11:3999/image/cf6db81ad566e6e0bc5e16356586b22e.jpg) no-repeat;*/
+  background: url(./metro.jpg) no-repeat;
+  background-size: 3200px ;
+}
+.breakfast{
+  height: 28px;
+  width: 100px;
+  background:-webkit-linear-gradient(45deg, #FFFEB3, #ffe28a,#feffe7);
+  background-size: 100% 100%;
+  color: #111;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow:0px 0px 10px 1px rgba(20%,20%,40%,0.5) inset;
+  border-radius: 5px;
+
+
+}
+.viewpoint{
+  height: 28px;
+  width: 100px;
+  background:-webkit-linear-gradient(45deg, #FFFEB3, #ffe28a,#feffe7);
+  background-size: 100% 100%;
+  color: #111;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow:0px 0px 10px 1px rgba(20%,20%,40%,0.5) inset;
+  border-radius: 5px;
+}
+.viewpoint{
+  height: 28px;
+  width: 100px;
+  background:-webkit-linear-gradient(270deg, #b7fedf,#98dead,#408e4b);
+  background-size: 100% 100%;
+  color: #111;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow:0px 0px 10px 1px rgba(20%,20%,40%,0.5) inset;
+  border-radius: 5px;
+}
+.hotel{
+  height: 28px;
+  width: 100px;
+  background:-webkit-linear-gradient(320deg, #F6C9F0, #E14CCF,#A94CE1);
+  background-size: 100% 100%;
+  color: #111;
+  text-align: center;
+  padding-top: 10px;
+  box-shadow:0px 0px 10px 1px rgba(20%,20%,40%,0.5) inset;
+  border-radius: 5px;
+}
+
+
